@@ -39,16 +39,18 @@ A,google-chrome,
 ,gst-plugins-ugly,
 ,gstreamer,
 ,gvfs-smb,
+,handbrake,is for ripping DVDs
 ,hexchat,
 ,htop,text-based resource monitor
-G,https://github.com/ssharpjr/dotfiles.git,
 ,hunspell-en_us,
 ,i3-gaps,is the wm
 ,i3blocks,is the status bar
+,imagemagick,
 A,ipscan,
 A,jdk,
 A,jre,
 ,lame,
+,libdvdcss,is a DVD decrypting library
 ,libreoffice-fresh,
 ,libvncserver,
 ,libvorbis,
@@ -61,15 +63,18 @@ A,mint-y-icons,Linux Mint Y icons
 ,mpc,
 ,mpd,is a music daemon
 ,mtr-gtk,
+,mupdf,
 ,ncmpcpp,is a music player
 ,neofetch,
 A,nerd-fonts-complete,
 A,netextender,
 ,nmap,
+,numlockx,
 ,openssh,
 ,opus,
 ,p7zip,
 A,pacmanager-bin,
+,pandoc,
 ,pgkstats,reports package stats
 ,playerctl,controls media playback
 ,poppler,
@@ -83,6 +88,7 @@ A,remmina-git,
 A,remmina-plugin-rdesktop,
 ,samba,
 ,sc-im,is a text-based spreadsheet program
+,scrot,is a screenshot tool
 ,seahorse,
 ,shotwell,
 ,simple-mtpfs,
@@ -90,6 +96,7 @@ A,spotify,
 ,sxiv,is an image viewer
 ,sysstat,reports system stats
 ,system-config-printer,
+,texstudio,
 A,timeshift,
 ,tk,
 ,traceroute,
@@ -107,8 +114,10 @@ A,virtualbox-ext-oracle,
 ,virtualbox-guest-iso,
 ,virtualbox-host-dkms,
 ,vlc,
+,wget,
 ,x86-video-intel,
 ,xclip,
+,xdotool,
 ,xorg-apps,
 ,xorg-server,
 ,xorg-xinit,
