@@ -1,5 +1,7 @@
 discord
 dropbox
+flat-remix-git
+flat-remix-gtk-git
 foxitreader
 g810-led-git
 gksu
@@ -13,15 +15,19 @@ mint-x-icons
 mint-y-icons
 nerd-fonts-complete
 netextender
+nordic-polar-theme-git
+nordic-theme-git
 pacmanager-bin
 planeshift
 remmina-git
 sc-im
 simple-mtpfs
 spotify
+st
 syncterm
 timeshift
 ttf-ms-fonts
 unclutter-xfixes-git
 virtualbox-ext-oracle
+volnoti-brightness-git
 yay

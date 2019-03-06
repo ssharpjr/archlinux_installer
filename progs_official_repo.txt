@@ -1,15 +1,18 @@
 acpi
+adapta-gtk-theme
 adobe-source-code-pro-fonts
 arandr
 audacity
 autoconf
 automake
+autorandr
 awesome-terminal-fonts
 baobab
 bash
 bind-tools
 binutils
 bison
+bleachbit
 blueberry
 bluez
 bluez-utils
@@ -23,6 +26,7 @@ conky
 coreutils
 cryptsetup
 cups
+darktable
 ddclient
 deja-dup
 device-mapper
@@ -33,6 +37,7 @@ diffutils
 discount
 dmenu
 e2fsprogs
+easytag
 efibootmgr
 evolution
 evolution-ews
@@ -74,6 +79,7 @@ gvfs-smb
 gvim
 gzip
 handbrake
+hardinfo
 hexchat
 hidapi
 htop
@@ -125,6 +131,7 @@ networkmanager
 newsboat
 nfs-utils
 nmap
+numix-gtk-theme
 numlockx
 pacman
 pacman-contrib
@@ -155,12 +162,14 @@ scrot
 seahorse
 sed
 shadow
+shellcheck
 shotwell
 sipcalc
 steam
 stone-soup
 sudo
 sxiv
+sysbench
 sysfsutils
 sysstat
 system-config-printer
@@ -211,6 +220,7 @@ wget
 which
 wine
 xclip
+xcursor-bluecurve
 xdotool
 xf86-video-intel
 xfsprogs
