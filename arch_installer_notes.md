@@ -199,7 +199,7 @@ Edit `/etc/systemd/logind.conf` and set `HandleLidSwitch` to `ignore`.
   21. `# pacstrap -i /mnt base`
   22. `# genfstab -U -p /mnt >> /mnt/etc/fstab`
   21. `# arch-chroot /mnt`
-  22. `# pacman -S base-devel grub efibootmgr dosfstools openssh os-prober mtools linux-headers linux-lts linux-lts-headers`
+  22. `# pacman -S base-devel grub efibootmgr dosfstools network-manager openssh os-prober mtools linux-headers linux-lts linux-lts-headers`
   23. Edit `/etc/mkinitcpio.conf` and add `encrypt lvm2` in between `block` and `filesystems`
   24. `# mkinitcpio -p linux`
   25. `# mkinitcpio -p linux-lts`
