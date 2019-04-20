@@ -1,5 +1,6 @@
 adapta-gtk-theme
 arandr
+asciiquarium
 audacity
 autoconf
 automake
@@ -18,6 +19,7 @@ clementine
 code
 compton
 conky
+cowfortune
 cpio
 darktable
 dcfldd
@@ -29,6 +31,7 @@ diffstat
 discount
 easytag
 evolution-ews
+figlet
 filezilla
 firefox
 flex
@@ -50,7 +53,6 @@ gvim
 handbrake
 hardinfo
 hexchat
-htop
 i3-gaps
 i3blocks
 inkscape
@@ -65,7 +67,6 @@ licenses
 linux-lts
 logrotate
 lxappearance
-man-db
 man-pages
 mpc
 mpd
@@ -101,7 +102,6 @@ qutebrowser
 ranger
 redshift
 rpcsvc-proto
-screen
 scrot
 shellcheck
 shotwell
@@ -110,6 +110,7 @@ socat
 steam
 stone-soup
 sxiv
+syncthing
 sysbench
 terminus-font
 texlive-bibtexextra
@@ -123,10 +124,8 @@ texlive-publishers
 texlive-science
 texmaker
 texstudio
-tmux
 traceroute
 transmission-gtk
-tree
 ttf-anonymous-pro
 ttf-gentium
 ttf-inconsolata
