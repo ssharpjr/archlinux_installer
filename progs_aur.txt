@@ -3,7 +3,6 @@ byobu
 discord
 dropbox
 etcher
-flat-remix-git
 foxitreader
 freerdp-git
 g810-led-git
@@ -24,9 +23,7 @@ lsdesktopf
 luabind
 manuskript-git
 minecraft-launcher
-mint-themes
 mint-x-icons
-mint-y-icons
 nerd-fonts-complete
 netextender
 nordic-polar-theme-git

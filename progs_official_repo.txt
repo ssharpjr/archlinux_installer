@@ -35,7 +35,6 @@ figlet
 filezilla
 firefox
 flex
-freedroidrpg
 gimp
 gnome-calculator
 gnome-screenshot
@@ -99,7 +98,6 @@ pv
 python-virtualenv
 qtcreator
 qutebrowser
-ranger
 redshift
 rpcsvc-proto
 scrot
