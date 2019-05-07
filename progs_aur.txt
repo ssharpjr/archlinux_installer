@@ -16,8 +16,6 @@ ipscan
 jdk
 jre
 kjv-git
-libc++
-libc++abi
 libgksu
 lsdesktopf
 luabind
@@ -43,6 +41,7 @@ remmina-git
 sc-im
 screenkey
 simple-mtpfs
+songs
 speedometer
 spotify
 syncterm

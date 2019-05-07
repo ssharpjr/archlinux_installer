@@ -1,5 +1,6 @@
 adapta-gtk-theme
 arandr
+arp-scan
 asciiquarium
 audacity
 autoconf
@@ -29,6 +30,7 @@ deja-dup
 dex
 diffstat
 discount
+docker
 easytag
 evolution-ews
 figlet
@@ -37,6 +39,7 @@ firefox
 flex
 gimp
 gnome-calculator
+gnome-disk-utility
 gnome-screenshot
 gnome-shell
 gnome-system-monitor
@@ -65,6 +68,7 @@ libreoffice-extension-writer2latex
 licenses
 linux-lts
 logrotate
+lutris
 lxappearance
 man-pages
 mpc
@@ -90,6 +94,7 @@ numix-gtk-theme
 numlockx
 offlineimap
 pan
+pepper-flash
 pkgconf
 pkgstats
 powerline-fonts
@@ -100,7 +105,6 @@ qtcreator
 qutebrowser
 redshift
 rpcsvc-proto
-scrot
 shellcheck
 shotwell
 sipcalc
@@ -163,3 +167,4 @@ xorg-xvinfo
 xorg-xwd
 xorg-xwud
 youtube-viewer
+zim

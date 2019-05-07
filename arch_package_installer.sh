@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Installs all of my pacakges.
+# Installs all of my packages.
 
 tmpdir=$(mktemp -d)
 progs_srcfile="progs.csv"
