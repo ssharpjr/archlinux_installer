@@ -93,6 +93,8 @@ nmap
 numix-gtk-theme
 numlockx
 offlineimap
+oracle-instantclient-sdk
+oracle-instantclient-sqlplus
 pan
 pepper-flash
 pkgconf
