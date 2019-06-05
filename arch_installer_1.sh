@@ -37,7 +37,7 @@ mount /dev/sda1 /mnt/efi
 pacstrap /mnt base base-devel vim networkmanager intel-ucode grub efibootmgr git
 
 # Generate fstab
-genfstab -U /mnt /mnt/etc/fstab
+genfstab -U /mnt > /mnt/etc/fstab
 
 # Copy files to the new root.
 cp arch_*.sh /mnt/root; chmod +x /mnt/root arch_*.sh

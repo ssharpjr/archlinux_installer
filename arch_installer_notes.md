@@ -185,12 +185,12 @@ Edit `/etc/systemd/logind.conf` and set `HandleLidSwitch` to `ignore`.
         * `# pvcreate --dataalignment 1m /dev/mapper/lvm`
         * `# vgcreate volgroup0 /dev/mapper/lvm`
         * `# lvcreate -L 30GB volgroup0 -n lv_root`
-        * `# lvcreate -L 250GB volgroup0 -n lv_home`
+        * `# lvcreate -l 100%FREE volgroup0 -n lv_home`
         * `# modprobe dm_mod`
         * `# vgscan`
         * `# vgchange -ay`
   14. `# mkfs.ext4 /dev/volgroup0/lv_root`
-  15. `# mkfs.xfs /dev/volgroup0/lv_home`
+  15. `# mkfs.ext4 /dev/volgroup0/lv_home`
   16. `# mount /dev/volgroup0/lv_root /mnt`
   17. `# mkdir /mnt/boot`
   18. `# mkdir /mnt/home`
