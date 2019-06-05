@@ -37,6 +37,7 @@ figlet
 filezilla
 firefox
 flex
+fzf
 gimp
 gnome-calculator
 gnome-disk-utility
@@ -51,7 +52,6 @@ gpodder
 grub
 gsimplecal
 gufw
-gvim
 handbrake
 hardinfo
 hexchat
@@ -71,6 +71,7 @@ logrotate
 lutris
 lxappearance
 man-pages
+minicom
 mpc
 mpd
 msmtp
