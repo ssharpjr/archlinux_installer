@@ -3,7 +3,7 @@
 # Update official repo packages
 echo Updating Official Arch Repos
 # pacman -Qent | cut -d ' ' -f 1 > progs_official_repo.txt
-pacman -Qqent > progs_official_repo.txt
+pacman -Qqen > progs_official_repo.txt
 echo Total Official Packages:  $(cat progs_official_repo.txt | wc -l)
 
 # Update AUR packages
