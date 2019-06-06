@@ -1,5 +1,7 @@
 ## Arch Linux
 
+Install reference:  [https://gitlab.com/jsherman82/notes/blob/master/arch.md]
+
 #### Misc Tweaks
 
 ###### Disable turbo boost:
