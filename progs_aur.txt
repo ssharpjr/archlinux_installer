@@ -1,7 +1,5 @@
 discord
 dropbox
-etcher
-foxitreader
 g810-led-git
 ghostwriter
 gksu
@@ -20,8 +18,6 @@ nerd-fonts-complete
 netextender
 nordic-polar-theme-git
 nordic-theme-git
-pacmanager-bin
-planeshift
 remmina-git
 sc-im
 screenkey

@@ -36,3 +36,6 @@ if [ $? = 0 ]; then
 fi;
 config checkout
 config config status.showUntrackedFiles no
+
+##### Script Installer
+`curl -Lks http://bit.do/ssharpjr-dotfiles | /bin/bash`
