@@ -18,7 +18,6 @@ nerd-fonts-complete
 netextender
 nordic-polar-theme-git
 nordic-theme-git
-remmina-git
 sc-im
 screenkey
 simple-mtpfs

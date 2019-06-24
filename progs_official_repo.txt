@@ -22,7 +22,6 @@ bzip2
 calcurse
 cdrtools
 chrpath
-cinnamon
 clementine
 cmatrix
 code
@@ -122,6 +121,7 @@ libdvdcss
 libreoffice-extension-writer2latex
 libreoffice-fresh
 libtool
+libvncserver
 licenses
 linux-firmware
 linux-lts
@@ -156,6 +156,7 @@ neovim
 neovim-qt
 netctl
 nethack
+network-manager-applet
 networkmanager
 newsboat
 nfs-utils
@@ -192,6 +193,7 @@ qtcreator
 qutebrowser
 redshift
 reiserfsprogs
+remmina
 rpcsvc-proto
 rxvt-unicode
 s-nail
