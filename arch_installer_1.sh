@@ -34,7 +34,7 @@ mkdir -p /mnt/efi
 mount /dev/sda1 /mnt/efi
 
 # Pacstrap the system
-pacstrap /mnt base base-devel vim networkmanager intel-ucode grub efibootmgr git
+pacstrap /mnt base linux linux-firmware base-devel vim networkmanager intel-ucode grub efibootmgr git
 
 # Generate fstab
 genfstab -U /mnt > /mnt/etc/fstab
