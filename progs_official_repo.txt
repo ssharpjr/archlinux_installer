@@ -38,7 +38,6 @@ cowsay
 cpio
 cryptsetup
 cups
-darktable
 dcfldd
 ddclient
 ddrescue

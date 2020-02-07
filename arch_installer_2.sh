@@ -22,7 +22,7 @@
 # This script should be in the new /root.
 
 ### BEGIN ###
-NEW_HOSTNAME="archtest"
+NEW_HOSTNAME="sshzbookg5"
 NEW_USER="ssharp"
 
 # Set Locale and Language
@@ -40,21 +40,40 @@ EOF
 echo $NEW_HOSTNAME > /etc/hostname
 
 # Start Networking
-systemctl start NetworkManager
 systemctl enable NetworkManager
 
 # Set Root password
+echo
 echo Set Root Password
 passwd
 
 # Create new user
 useradd -m -G wheel $NEW_USER
+echo
+echo Set password for ${NEW_USER}
+passwd $NEW_USER
 
 # Install GRUB
 grub-install --target=x86_64-efi --efi-directory=/efi --bootloader-id=GRUB --removable
 grub-mkconfig -o /boot/grub/grub.cfg
 
 # Cleaning up
+echo
+echo Cleaning up
+rm /root/arch_installer_2.sh
 exit
 umount /mnt/efi && umount /mnt
-echo Done.
+umount /media
+echo
+echo ==================================================
+echo Arch Linux Installer Script Complete
+echo
+echo Run the following commands to complete the install
+echo
+echo "exit"
+echo "cd"
+echo "umount -a"
+echo
+echo Remove your media drive and reboot your system
+echo ==================================================
+echo
