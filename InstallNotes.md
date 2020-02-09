@@ -49,6 +49,9 @@ Good install reference:  [https://gitlab.com/jsherman82/notes/blob/master/arch.m
 - rm -rf ~/.bash*
 - install_dotfiles.sh
 
+### Install ~/bin Files
+- git clone https://gitlab.com/ssharpjr/binfiles-backup.git ~/bin
+
 #### Workstation Setups
 - Install printers
 
