@@ -39,6 +39,16 @@ Good install reference:  [https://gitlab.com/jsherman82/notes/blob/master/arch.m
 - systemctl enable Network Manager.service
 - nmtui (setup wifi)
 
+### Install Official Repo Packages
+- install_official_progs.sh
+
+### Install AUR Packages
+- install_aur_progs.sh
+
+### Install dotfiles
+- rm -rf ~/.bash*
+- install_dotfiles.sh
+
 #### Workstation Setups
 - Install printers
 
