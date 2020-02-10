@@ -20,10 +20,6 @@ luabind
 makemkv
 makemkv-libaacs
 manuskript-git
-mcpelauncher-linux-git
-mcpelauncher-msa-git
-mcpelauncher-msa-ui-qt-git
-mcpelauncher-ui-git
 minecraft-launcher
 mint-x-icons
 mudlet

@@ -35,6 +35,7 @@ timedatectl set-ntp true
 # Format Partitions
 mkfs.fat -F32 ${EFI_PART}
 mkfs.ext4 -F ${ROOT_PART}
+# mkfs.ext4 -F ${HOME_PART}
 # mkswap /dev/sda2
 # swapon /dev/sda2
 
