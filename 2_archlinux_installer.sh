@@ -1,29 +1,21 @@
 #!/usr/bin/env bash
 
-# arch_installer_2.sh
+# 2_archlinux_installer.sh
 
-# Automate basic Arch Linux install steps
+# Automate basic Arch Linux install steps.
+
+# Author: Stacey Sharp (https://github.com/ssharpjr)
+
 
 # You are expected to complete the following step manually PRIOR to running this script.
-
-# ASSUMPTIONS
-# - You booted from an Arch Linux USB flash drive.
-# - Network up (ex: wifi-menu)
-# - UEFI is assumed.  If not, change the partitions and GRUB commands.
-# - Intel CPU and graphics are assumed.
-# - You have a drive identified as /dev/sda with 3 formatted partitions:
-#   - Partition 1: up to 500MB (550MB MAX), Type: EFI
-#   - Partition 2: 4GB (or so), Type: Linux Swap
-#   - Partition 3: (Root), Type: Linux EXT4
-
 # - You have run pacstrap (arch_installer_1.sh script for example)
 # - You have run genfstab and arch-chroot.
 
 # This script should be in the new /root.
 
 ### BEGIN ###
-NEW_HOSTNAME="sshzbookg5"
-NEW_USER="ssharp"
+NEW_HOSTNAME="NEWHOSTNAME"
+NEW_USER="NEWUSERNAME"
 
 # Set Locale and Language
 ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime
@@ -39,8 +31,9 @@ EOF
 
 echo $NEW_HOSTNAME > /etc/hostname
 
-# Start Networking
+# Enable Services
 systemctl enable NetworkManager
+systemctl enable fstrim.timer
 
 # Set Root password
 echo
@@ -60,19 +53,17 @@ grub-mkconfig -o /boot/grub/grub.cfg
 # Cleaning up
 echo
 echo Cleaning up
-rm /root/arch_installer_2.sh
-exit
-umount /mnt/efi && umount /mnt
-umount /media
+rm /root/2_archlinux_installer.sh
+
 echo
 echo ==================================================
 echo Arch Linux Installer Script Complete
 echo
 echo Run the following commands to complete the install
 echo
-echo "exit"
-echo "cd"
-echo "umount -a"
+echo "exit"  # from the chroot
+echo "cd"  # to make sure you are 'home'
+echo "umount -a"  # unmount all drives and install media (may see errors)
 echo
 echo Remove your media drive and reboot your system
 echo ==================================================

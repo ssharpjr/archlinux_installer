@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # Reference: https://www.atlassian.com/git/tutorials/dotfiles
 
+# NOTE: You may need to delete the default .bash* files
+
 git clone --bare https://github.com/ssharpjr/cfg.git $HOME/.cfg
 function config {
    /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME $@
