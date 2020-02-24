@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# Install a list of AUR packages
+# It is recommended to add the following to /etc/makepkg.conf 
+#  ```MAKEFLAGS="-j$(nproc)"
+
 aurprogs="progs_aur.txt"
 
 # Install yay first

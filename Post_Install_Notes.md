@@ -17,6 +17,9 @@
 #### Dot Files
 [https://www.atlassian.com/git/tutorials/dotfiles]
 
+#### Bin Files
+[https://gitlab.com/ssharpjr/binfiles-backup]
+
 #### Python Virtualenv Wrapper
 ```sudo pip install virtualenvwrapper```
 
@@ -33,4 +36,6 @@ Import or delete/recreate a new default keyring (~/.local/share/keyrings) using 
 * Update/Replace ```/etc/g810-led/profile```
 
 ##### Misc
+* Restore Backups
+* Restore Private Keys
 * Install Printers (derp)
