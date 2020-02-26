@@ -23,7 +23,6 @@ luabind
 makemkv
 makemkv-libaacs
 manuskript-git
-mimeo
 minecraft-launcher
 mint-x-icons
 mudlet
@@ -35,6 +34,7 @@ nordvpn-bin
 pystopwatch
 python37
 remmina-plugin-rdesktop
+runescape-launcher
 sc-controller
 sc-im
 simple-mtpfs
@@ -57,5 +57,4 @@ volnoti-brightness-git
 wat-git
 whatever
 xcowsay
-xdg-utils-mimeo
 yay

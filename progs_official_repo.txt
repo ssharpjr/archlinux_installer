@@ -180,6 +180,7 @@ nfs-utils
 nmap
 nodejs
 npm
+ntfs-3g
 numlockx
 nvidia
 nvidia-prime
@@ -297,6 +298,7 @@ wine
 winetricks
 xclip
 xcursor-bluecurve
+xdg-utils
 xdotool
 xf86-video-intel
 xfsprogs
