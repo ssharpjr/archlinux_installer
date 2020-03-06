@@ -1,5 +1,3 @@
-anbox-git
-anbox-modules-dkms-git
 android-studio
 balena-etcher
 debtap
@@ -31,6 +29,8 @@ netextender
 nordic-polar-theme-git
 nordic-theme-git
 nordvpn-bin
+nvidia-xrun
+powershell
 pystopwatch
 python37
 remmina-plugin-rdesktop
@@ -38,7 +38,6 @@ runescape-launcher
 sc-controller
 sc-im
 simple-mtpfs
-skypeforlinux-stable-bin
 snapd
 songs
 stacer

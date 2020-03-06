@@ -3,6 +3,7 @@
 #### Set Links
 * Vi to Vim Link (optional and may need to be removed before installing gvim)
   * ```ln -sf /usr/bin/vim /usr/bin/vi```
+  * Or set the __EDITOR__ variable as below
 
 #### Add New User to VISUDOERS
 * Run ```visudo``` or ```EDITOR=/usr/bin/vim visudo```
@@ -24,13 +25,16 @@
 ```sudo pip install virtualenvwrapper```
 
 #### Gnome Keyring
-* Copy/Import or delete/recreate a new default keyring (~/.local/share/keyrings) using seahorse
-* Add ```session optional pam_gnome_keyring.so auto_start``` to ```/etc/pamd.login```  [https://wiki.archlinux.org/index.php/GNOME/Keyring#PAM_method]
+* Copy/Import or delete/recreate a new default keyring (~/.local/share/keyrings) using seahorse [https://wiki.archlinux.org/index.php/GNOME/Keyring#PAM_method]
 
+* Add ```auth optional pam_gnome_keyring.so``` to the end of the __auth__ section in ```/etc/pam.d/login```
+* Add ```session optional pam_gnome_keyring.so auto_start``` to the end of ```/etc/pam.d/login```  
 #### Pacman/Makepkg Improvements
 * Uncomment/Set ```MAKEFLAGS="-j$(nproc)"``` in ```/etc/makepkg.conf``` [https://wiki.archlinux.org/index.php/Makepkg#Parallel_compilation]
 * Update Compression settings in ```/etc/makepkg.conf``` [https://wiki.archlinux.org/index.php/Makepkg#Utilizing_multiple_cores_on_compression]
 
+#### Setup/Enable Firewall
+* ```ufw``` or ```gufw```
 
 #### Hardware 
 ##### Logitech G810 Keyboard
@@ -39,4 +43,5 @@
 ##### Misc
 * Restore Backups
 * Restore Private Keys
+* Restore ```/etc/hosts``` file (Dropbox)
 * Install Printers (derp)

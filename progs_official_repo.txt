@@ -93,6 +93,7 @@ gpodder
 grc
 grep
 groff
+grsync
 grub
 gsimplecal
 gst-libav
@@ -115,6 +116,7 @@ hunspell-en_US
 i3-gaps
 i3blocks
 i3lock
+icoutils
 ifuse
 inetutils
 inkscape
@@ -126,6 +128,7 @@ lib32-libcurl-compat
 lib32-libltdl
 lib32-libpulse
 lib32-libxvmc
+lib32-mpg123
 lib32-nvidia-utils
 libcrossguid
 libdvdcss
@@ -183,7 +186,6 @@ npm
 ntfs-3g
 numlockx
 nvidia
-nvidia-prime
 nvidia-settings
 octave
 offlineimap
@@ -208,6 +210,7 @@ pigz
 pkgconf
 pkgstats
 playerctl
+playonlinux
 powerline-fonts
 ppsspp
 pulsemixer
@@ -295,6 +298,8 @@ w3m
 wget
 which
 wine
+wine-gecko
+wine-mono
 winetricks
 xclip
 xcursor-bluecurve
