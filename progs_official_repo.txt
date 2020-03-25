@@ -28,6 +28,7 @@ calcurse
 ccid
 cdrtools
 chrpath
+clamav
 clementine
 cmatrix
 code
@@ -56,7 +57,6 @@ dunst
 dwarffortress
 efibootmgr
 evolution
-evolution-bogofilter
 evolution-ews
 exfat-utils
 expac
@@ -119,9 +119,9 @@ i3lock
 icoutils
 ifuse
 inetutils
-inkscape
 intel-ucode
 jfsutils
+keepassxc
 leafpad
 lib32-fakeroot
 lib32-libcurl-compat
@@ -137,6 +137,7 @@ libreoffice-fresh
 libtool
 libvirt
 libvncserver
+light
 linux
 linux-firmware
 linux-headers
@@ -225,6 +226,7 @@ qtcreator
 qutebrowser
 rawtherapee
 redshift
+reflector
 reiserfsprogs
 remmina
 rmlint
@@ -269,6 +271,7 @@ thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
+thunderbird
 tk
 tmux
 traceroute
@@ -301,6 +304,7 @@ wine
 wine-gecko
 wine-mono
 winetricks
+xbindkeys
 xclip
 xcursor-bluecurve
 xdg-utils

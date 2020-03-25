@@ -1,6 +1,8 @@
 android-studio
 balena-etcher
+brave-bin
 debtap
+downgrader
 dropbox
 epsxe
 freerdp-git
@@ -32,13 +34,13 @@ nordvpn-bin
 nvidia-xrun
 powershell
 pystopwatch
+python-fangfrisch
 python37
 remmina-plugin-rdesktop
 runescape-launcher
 sc-controller
 sc-im
 simple-mtpfs
-snapd
 songs
 stacer
 syncterm
@@ -47,6 +49,7 @@ tintin
 ttf-ms-fonts
 tusk
 unclutter-xfixes-git
+ungoogled-chromium
 unigine-heaven
 unigine-superposition
 unigine-valley
@@ -56,4 +59,5 @@ volnoti-brightness-git
 wat-git
 whatever
 xcowsay
+xcwd-git
 yay
