@@ -3,7 +3,10 @@ adapta-gtk-theme
 adobe-source-code-pro-fonts
 android-tools
 arandr
+arch-wiki-docs
+arch-wiki-lite
 ardour
+aria2
 arp-scan
 asciiquarium
 asunder
@@ -11,6 +14,7 @@ audacity
 autoconf
 automake
 autorandr
+avidemux-qt
 awesome-terminal-fonts
 baobab
 base
@@ -19,6 +23,7 @@ bind-tools
 binutils
 bison
 bleachbit
+blender
 blueberry
 bluez
 bluez-utils
@@ -87,6 +92,7 @@ gnome-shell
 gnome-system-monitor
 gnu-netcat
 go
+gpac
 gparted
 gpicview
 gpodder
@@ -152,6 +158,7 @@ m4
 make
 man-db
 man-pages
+maven
 mdadm
 mesa
 mesa-demos
@@ -201,7 +208,10 @@ pacman
 pacman-contrib
 pan
 pandoc
+pasystray
 patch
+pavucontrol
+pavucontrol-qt
 pbzip2
 pcsc-tools
 pcsx2
@@ -213,7 +223,6 @@ pkgstats
 playerctl
 playonlinux
 powerline-fonts
-ppsspp
 pulsemixer
 pv
 python-pilkit
@@ -222,6 +231,8 @@ python-pyenchant
 python-pynvim
 python-virtualenv
 qemu
+qt5-styleplugins
+qt5ct
 qtcreator
 qutebrowser
 rawtherapee
@@ -245,6 +256,7 @@ socat
 steam
 stone-soup
 sudo
+surf
 sxiv
 syncthing
 sysbench
