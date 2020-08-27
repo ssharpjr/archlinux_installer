@@ -1,0 +1,10 @@
+[Trigger]
+Operation = Upgrade
+Operation = Install
+Operation = Remove
+Type = Package
+Target = *
+[Action]
+Description = Updating i3blocks...
+When = PostTransaction
+Exec = /bin/bash /home/ssharp/bin/update_i3blocks.sh
