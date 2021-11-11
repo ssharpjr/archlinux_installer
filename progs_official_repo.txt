@@ -2,6 +2,7 @@ acpi
 adapta-gtk-theme
 alsa-utils
 android-tools
+ansible
 arandr
 arch-wiki-docs
 arch-wiki-lite
@@ -73,6 +74,8 @@ dunst
 dwarffortress
 efibootmgr
 espeak
+evolution
+evolution-ews
 exfat-utils
 expac
 fakeroot
@@ -83,6 +86,7 @@ file
 filezilla
 findutils
 firefox
+flatpak
 flex
 flite
 fortune-mod
@@ -91,11 +95,14 @@ freerdp
 fzf
 gawk
 gcc
+gcc10
+gcc10-libs
 gentium-plus-font
 gettext
 ghostwriter
 gimp
 git
+glibc
 gnome-bluetooth
 gnome-calculator
 gnome-disk-utility
@@ -130,12 +137,14 @@ gzip
 handbrake
 hardinfo
 hdparm
+helm
 hexchat
 hidapi
 hplip
 htop
 httrack
 hunspell-en_us
+hyphen-en
 i3-gaps
 i3blocks
 i3lock
@@ -146,6 +155,7 @@ jdk8-openjdk
 jfsutils
 jre8-openjdk
 keepassxc
+kubectl
 leafpad
 lib32-fakeroot
 lib32-giflib
@@ -167,8 +177,10 @@ lib32-openal
 lib32-v4l-utils
 libcrossguid
 libdvdcss
+libertinus-font
 libreoffice-extension-writer2latex
 libreoffice-fresh
+libstdc++5
 libtool
 libvirt
 libvncserver
@@ -187,6 +199,7 @@ luit
 lutris
 lvm2
 lxappearance
+lxterminal
 m4
 make
 man-db
@@ -207,6 +220,7 @@ mtools
 mtpfs
 mtr-gtk
 mupdf
+mythes-en
 nano
 nasm
 ncdu
@@ -220,8 +234,10 @@ neovim
 neovim-qt
 netctl
 nethack
+nethogs
 network-manager-applet
 networkmanager
+networkmanager-l2tp
 networkmanager-openvpn
 networkmanager-strongswan
 newsboat
@@ -234,7 +250,9 @@ ntfs-3g
 ntp
 numlockx
 nvidia
+nvidia-lts
 nvidia-settings
+nvtop
 ocl-icd
 octave
 offlineimap
@@ -244,6 +262,7 @@ oracle-instantclient-basic
 oracle-instantclient-sdk
 oracle-instantclient-sqlplus
 os-prober
+otf-ipafont
 p7zip
 pacman
 pacman-contrib
@@ -269,6 +288,7 @@ playonlinux
 polkit-gnome
 posterazor
 powerline-fonts
+prusa-slicer
 pulsemixer
 pv
 pychess
@@ -304,8 +324,10 @@ shotwell
 simple-scan
 sipcalc
 socat
+sonic-pi
 soundfont-fluid
 speedtest-cli
+sstp-client
 steam
 stone-soup
 strongswan
@@ -339,7 +361,6 @@ thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
 thunderbird
-thunderbird-extension-enigmail
 timidity++
 tk
 tlp
@@ -351,6 +372,7 @@ ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
 ttf-font-awesome
+ttf-hanazono
 ttf-inconsolata
 ttf-joypixels
 ttf-liberation
@@ -363,7 +385,6 @@ usbutils
 vagrant
 vi
 vifm
-vim-jedi
 virtualbox
 virtualbox-guest-iso
 virtualbox-host-modules-arch
@@ -429,7 +450,6 @@ xsensors
 xterm
 yasm
 youtube-dl
-youtube-viewer
 zathura
 zathura-pdf-poppler
 zim
